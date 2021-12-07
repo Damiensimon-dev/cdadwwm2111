@@ -6,7 +6,13 @@ namespace _2._1._3
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string saisieUtilisateur;
+            string[] saisie;
+
+            Console.WriteLine("Vous pouvez saisir plusieur valeurs séparé par un espace");
+
+            saisie = saisieUtilisateur.Split(" ");
+
         }
     }
 }
