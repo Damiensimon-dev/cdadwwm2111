@@ -37,13 +37,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.1.2", "2.1.2\2.1.2.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.1.3", "2.1.3\2.1.3.csproj", "{9D03CA7A-BC1E-4E3C-B85F-26D1F21667FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.2.2", "2.2\2.2.2.csproj", "{0F7A535C-CA56-4776-A5F8-1C2D737C1601}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.2.2", "2.2\2.2.2.csproj", "{0F7A535C-CA56-4776-A5F8-1C2D737C1601}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.3", "2.3\2.3.csproj", "{CC964886-A436-4664-A354-ADF76A96937D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.3", "2.3\2.3.csproj", "{CC964886-A436-4664-A354-ADF76A96937D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.2.1", "2.2.1\2.2.1.csproj", "{08F9DE31-F97C-4722-8626-274B05CC91BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.2.1", "2.2.1\2.2.1.csproj", "{08F9DE31-F97C-4722-8626-274B05CC91BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.4", "2.4\2.4.csproj", "{37D8927C-42B5-47C0-B75C-641B9AF04C0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.4", "2.4\2.4.csproj", "{37D8927C-42B5-47C0-B75C-641B9AF04C0B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "fonctionRecursif 1.2", "fonctionRecursif 1.2\fonctionRecursif 1.2.csproj", "{E5D86684-896F-4BFF-9DCB-8B8AA8B87DEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2_6ProduitDeDeuxEntierFonctionRecursif", "2_6ProduitDeDeuxEntierFonctionRecursif\2_6ProduitDeDeuxEntierFonctionRecursif.csproj", "{8855B9E4-7D1A-4C5D-9DEA-E30A37312119}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2_7CalculePuissanceFonctionRecursif", "2_7CalculePuissanceFonctionRecursif\2_7CalculePuissanceFonctionRecursif.csproj", "{3548C623-13D8-4D5D-9BA5-9D04FFB63C74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2_10PalindromeFonctionRecursif", "2_10PalindromeFonctionRecursif\2_10PalindromeFonctionRecursif.csproj", "{F0ACDD09-C6D0-421E-8C3A-D4DBA1BA0C46}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -135,6 +143,22 @@ Global
 		{37D8927C-42B5-47C0-B75C-641B9AF04C0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37D8927C-42B5-47C0-B75C-641B9AF04C0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37D8927C-42B5-47C0-B75C-641B9AF04C0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5D86684-896F-4BFF-9DCB-8B8AA8B87DEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5D86684-896F-4BFF-9DCB-8B8AA8B87DEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5D86684-896F-4BFF-9DCB-8B8AA8B87DEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5D86684-896F-4BFF-9DCB-8B8AA8B87DEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8855B9E4-7D1A-4C5D-9DEA-E30A37312119}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8855B9E4-7D1A-4C5D-9DEA-E30A37312119}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8855B9E4-7D1A-4C5D-9DEA-E30A37312119}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8855B9E4-7D1A-4C5D-9DEA-E30A37312119}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3548C623-13D8-4D5D-9BA5-9D04FFB63C74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3548C623-13D8-4D5D-9BA5-9D04FFB63C74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3548C623-13D8-4D5D-9BA5-9D04FFB63C74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3548C623-13D8-4D5D-9BA5-9D04FFB63C74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0ACDD09-C6D0-421E-8C3A-D4DBA1BA0C46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0ACDD09-C6D0-421E-8C3A-D4DBA1BA0C46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0ACDD09-C6D0-421E-8C3A-D4DBA1BA0C46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0ACDD09-C6D0-421E-8C3A-D4DBA1BA0C46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
