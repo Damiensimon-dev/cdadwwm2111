@@ -7,7 +7,7 @@ namespace fonctionRecursif_1._2
         static void Main(string[] args)
         {
             
-            Console.WriteLine($"le resultat de nombre un et nombre deux est de : { CalculNombreEntier(-10, -20)}");
+            Console.WriteLine($"le resultat de nombre un et nombre deux est de : { CalculNombreEntier(-10, 20)}");
         }
 
         public static int CalculNombreEntier(int nombreUn, int nombreDeux) 
