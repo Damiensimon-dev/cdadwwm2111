@@ -8,5 +8,9 @@ namespace ExerciceTrousse
 {
     class AutreTrousse : Trousse
     {
+        public AutreTrousse(int volume) : base(volume)
+        {
+
+        }
     }
 }

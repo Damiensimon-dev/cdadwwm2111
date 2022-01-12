@@ -8,10 +8,29 @@ namespace ExerciceTrousse
 {
     abstract class OutilEcriture : IOutil
     {
-        private string couleur;
-        private int capaciterEcriture;
+        private string _couleur;
+        private int _capaciterEcriture;
 
-        
+        public string Couleur
+        {
+            get { return _couleur; }
+            set { _couleur = value; }
+        }
+
+        public int CapaciterEcriture
+        {
+            get { return _capaciterEcriture; }
+        }
+
+        public void Ecrire()
+        {
+
+        }
+
+        public void Utiliser()
+        {
+
+        }
 
 
     }

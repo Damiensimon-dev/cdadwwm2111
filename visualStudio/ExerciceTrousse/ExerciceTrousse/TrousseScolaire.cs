@@ -8,5 +8,24 @@ namespace ExerciceTrousse
 {
     class TrousseScolaire : Trousse 
     {
+        private List<TrousseScolaire> _affaire;
+
+        public TrousseScolaire(int volume) : base(volume)
+        {
+
+        }
+
+        public void AjouterAffaire()
+        {
+
+        }
+
+        public void SortirAffaire()
+        {
+
+        }
     }
+
+    
+        
 }

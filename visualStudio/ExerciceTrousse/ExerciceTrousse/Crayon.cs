@@ -8,16 +8,22 @@ namespace ExerciceTrousse
 {
     abstract class Crayon : OutilEcriture
     {
-        private bool pointeDeMineATailler;
+        private bool _pointeDeMineATailler;
 
         public void Tailler()
         {
 
         }
 
-        public void Ecrire()
+        public new void Ecrire()
         {
 
+        }
+
+        public bool PointeDeMineATailler
+        {
+            get { return _pointeDeMineATailler; }
+            private set { _pointeDeMineATailler = value; }
         }
 
 

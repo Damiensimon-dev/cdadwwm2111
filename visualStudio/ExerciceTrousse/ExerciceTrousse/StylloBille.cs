@@ -8,5 +8,9 @@ namespace ExerciceTrousse
 {
     class StylloBille
     {
+        public StylloBille()
+        {
+
+        }
     }
 }

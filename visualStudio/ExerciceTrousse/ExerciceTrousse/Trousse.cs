@@ -8,12 +8,12 @@ namespace ExerciceTrousse
 {
     abstract class Trousse
     {
-        private int volume;
-        private bool estOuverte;
+        private int _volume;
+        private bool _estOuverte;
 
         public Trousse(int volume)
         {
-
+            _volume = volume;
         }
 
         public void Ouvrir()
@@ -28,10 +28,14 @@ namespace ExerciceTrousse
 
         public int Volume
         {
-            get { return volume; }
-            private set { volume = value; }
+            get { return _volume; }
+            private set { _volume = value; }
         }
 
-        
+        public bool EstOuverte
+        {
+            get { return _estOuverte; }
+            private set { _estOuverte = value; }
+        }
     }
 }
