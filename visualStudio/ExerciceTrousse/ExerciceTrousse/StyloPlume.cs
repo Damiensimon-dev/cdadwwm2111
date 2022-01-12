@@ -8,6 +8,10 @@ namespace ExerciceTrousse
 {
     class StyloPlume
     {
+        public StyloPlume(string _couleur)
+        {
+
+        }
         public void RemplacerCartouche(string couleur)
         {
 

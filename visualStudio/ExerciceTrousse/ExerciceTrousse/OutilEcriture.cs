@@ -22,7 +22,7 @@ namespace ExerciceTrousse
             get { return _capaciterEcriture; }
         }
 
-        public void Ecrire()
+        private void Ecrire()
         {
 
         }
