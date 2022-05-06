@@ -7,11 +7,12 @@
     <meta name="author" content="CRM">
 
     <!--JavaScript-->
-    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="main.js" defer></script>
 
     <!-- Le styles -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="css/formulaire.css" rel="stylesheet" >
     <style>
 
     /* GLOBAL STYLES
@@ -99,9 +100,9 @@
     -------------------------------------------------- */
 
     /* Carousel base class */
-    .carousel {
+    /* .carousel {
       margin-bottom: 60px;
-    }
+    } */
 
     .carousel .container {
       position: relative;
@@ -325,36 +326,7 @@
     ================================================== -->
     <div id="myCarousel" class="carousel slide">
       <div class="carousel-inner">
-        <div class="item active">
-          <img src="img/slide-01.jpg" alt="">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Example headline.</h1>
-              <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <a class="btn btn-large btn-primary" href="#">Sign up today</a>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img src="img/slide-02.jpg" alt="">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Another example headline.</h1>
-              <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <a class="btn btn-large btn-primary" href="#">Learn more</a>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img src="img/slide-03.jpg" alt="">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>One more for good measure.</h1>
-              <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <a class="btn btn-large btn-primary" href="#">Browse gallery</a>
-            </div>
-          </div>
-        </div>
+        
       </div>
       <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
       <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
@@ -368,24 +340,38 @@
     <div class="parent">
      
       <div class="enfant">
-        <form action="" method="get">
-          <p>pour nous contactez sans attendre, veuillez renseigner le formulaire suivant <br> les champs précédés du signe * sont obligatoires</p>
-          <label for="civilite">Civilité :</label>
-          <select name="civilite" id="civilite"></select>
-          <label for="nom">Nom *:</label>
-          <input type="text" id="nom" name="nom">
-          <label for="prenom">Prénom :</label>
-          <input type="text" id="prenom" name="prenom">
-          <label for="adresse">Adresse :</label>
-          <input type="text" id="adresse" name="adresse">
-          <label for="telephone">Télèphone *:</label>
-          <input type="tel" id="telephone" name="telephone">
-          <label for="email">E-mail *:</label>
-          <input type="email" id="email" name="email">
-          <label for="objetMessage">Objet de votre message :</label>
-          <input type="text" id="objetMessage" name="objetMessage">
-          <label for="message">Votre message :</label>
-          <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        <form action="index.html" method="GET" id="form1">
+          <p id="p1">pour nous contactez sans attendre, veuillez renseigner le formulaire suivant <br> les champs précédés du signe * sont obligatoires</p>
+          <label for="civilite" id="civilite1">Civilité :</label>
+          <select name="civilite" id="civilite">
+          <option value=""></option>
+          <option value="madem">Mme</option>
+          <option value="monsieur">M</option>
+          <option value="mademoiselle">Mlle</option>
+          </select>
+          <br>
+          <label for="nom" id="nom1">Nom *:</label>
+          <input type="text" id="nom" name="nom" size="20">
+          <br>
+          <label for="prenom" id="prenom1">Prénom :</label>
+          <input type="text" id="prenom" name="prenom" size="20">
+          <br>
+          <label for="adresse" id="adresse1">Adresse :</label>
+          <input type="text" id="adresse" name="adresse" size="20">
+          <br>
+          <label for="tel" id="telephone1">Télèphone *:</label>
+          <input type="tel" id="tel" name="tel" size="20">
+          <br>
+          <label for="email" id="email1">E-mail *:</label>
+          <input type="email" id="email" name="email" size="20">
+          <br>
+          <label for="objetMessage" id="objetMessage1">Objet de votre message :</label>
+          <input type="text" id="objetMessage" name="objetMessage" size="20">
+          <br>
+          <label for="message" id="message1">Votre message :</label>
+          <textarea name="message" id="message" cols="30" rows="5"></textarea>
+          <br><br>
+          <button type="button" id="envoyer">Envoi</button>
         </form>
       </div>
  
