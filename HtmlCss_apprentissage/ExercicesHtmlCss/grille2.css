@@ -6,7 +6,7 @@ body{
     padding: 0px;
     gap: 20px;
     height: 100vh;
-}
+} 
 
 .box{
     background: #333;
@@ -87,4 +87,4 @@ body{
         grid-column: 1 / 9;
         grid-row: 7/ 8;
     }
-}
+} 
