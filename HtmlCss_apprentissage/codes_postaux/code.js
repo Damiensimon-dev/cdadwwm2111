@@ -32,7 +32,7 @@ fetch("ville.json")
 let monBouton = document.querySelector("#choix");
 
 monBouton.addEventListener("click", function(){
-    let maSelection = document.querySelector("#commune").value;
+    let maSelection = document.querySelector("#cp").value;
     console.log(maSelection);
     // let boolTrouve = false;
 

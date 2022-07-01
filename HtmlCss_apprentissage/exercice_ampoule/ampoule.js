@@ -3,7 +3,7 @@ let btnAmpoule = document.getElementById("affichage");
 let etat = false;
 btnAmpoule.addEventListener("click", function (e) {
 
-	e.preventDefault();
+	e.preventDefault(); //Je rajoute un évènement dans l'évènnement click
 	if (etat == false) {
 		document.getElementById("ampoule").src = "img/AmpouleOk.GIF";
 		//Je change la source de l'image 
@@ -17,4 +17,4 @@ btnAmpoule.addEventListener("click", function (e) {
 
 
  });
-//Je rajoute un évènement dans l'évènnement click
+
