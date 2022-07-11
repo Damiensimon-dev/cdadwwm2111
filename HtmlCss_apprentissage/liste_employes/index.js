@@ -141,7 +141,7 @@ btnCroissant.addEventListener("dblclick", function(){
 
 fetch("liste.json")
 .then(response => response.json())
-.then(response => fillTable(response))
+.then(response => console.log(response))
 .catch(error => alert("Erreur ;" + error));
 
 
